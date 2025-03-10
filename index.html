@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Login</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://drive.google.com/uc?export=download&id=1z7x5-cMIdtqIg_wWCRgQ0Mpi_wkhXq_J">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- ========== Start header ========== -->
+    <header>
+        <div class="header_wrapper">
+            <div class="container text-center py-3">
+                <h3>M_khata_app</h3>
+            </div>
+        </div>
+    </header>
+    <!-- ========== End header ========== -->
+
+
+    <section class="banner">
+        <div class="banner_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 Many_dyny d-flex justify-content-center gap-3">
+                        <div class="">
+                            <i class="fa-regular fa-circle-up fs-3 mt-2"></i>
+                        </div>
+                        <div class="">
+                            <h5>Many Dany hai</h5>
+                            <p>Rs <span>23456</span></p>
+                        </div>
+                    </div>
+                    <div class="col-6 Many_lyny d-flex justify-content-center gap-3">
+                        <div class="">
+                            <i class="fa-regular fa-circle-down fs-3 mt-2"></i>
+                        </div>
+                        <div class="">
+                            <h5>Many Lany hai</h5>
+                            <p>Rs <span>23456</span></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- search section -->
+                <div class="row justify-content-center my-3">
+                    <div class="col-md-6 d-flex">
+                        <div class="search-container me-3">
+                            <input type="text" class="form-control search-input" placeholder="Search...">
+                            <i class="fas fa-search search-icon"></i>
+                        </div>
+                        <button class="button">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ========== Start main ========== -->
+    <section class="Main_c my-5">
+        <div class="Main_c_wrapper">
+            <div class="container">
+                <div class="row justify-content-center my-3">
+                    <div class="col-md-8">
+                        <div class="single_view">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <div class="Single_V_DP"></div>
+                                    <div class="Single_V_Name ms-4 fw-bold">
+                                        <p class="m-0 p-0">RANA bilal JAved</p>
+                                    </div>
+                                </div>
+                                <div class="Single_V_Price">
+                                    Rs <span>3456</span>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <!-- duplicate start -->
+                        <div class="single_view">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <div class="Single_V_DP"></div>
+                                    <div class="Single_V_Name ms-4 fw-bold">
+                                        <p class="m-0 p-0">RANA bilal JAved</p>
+                                    </div>
+                                </div>
+                                <div class="Single_V_Price">
+                                    Rs <span>3456</span>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <!-- duplicate end-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ========== End main ========== -->
+
+
+    <!-- ========== Start customer ========== -->
+    <section class="Add_Custom_btn">
+        <button class="myybtn" data-bs-toggle="modal" data-bs-target="#Add_Customer_model">
+            <i class="fa-solid fa-plus me-2"></i> Add Customer
+        </button>
+    </section>
+    <!-- ========== End customer ========== -->
+
+    <script src="js/main.js"></script>
+    <!-- Bootstrap JS & Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- modals  -->
+
+    <!-- ========== Start add-Customer ========== -->
+    <div class="modal fade" id="Add_Customer_model" tabindex="-1" aria-labelledby="Add_Customer_model_label"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="Add_Customer_model_label">Add Customer</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput" placeholder="Name">
+                                    <label for="floatingInput">Name</label>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" class="check" id="check1-61" aria-label="Checkbox 1"
+                                        checked />
+                                    <label for="check1-61" class="label">
+                                        <svg width="45" height="45" viewBox="0 0 95 95">
+                                            <rect x="30" y="20" width="50" height="50" stroke="black" fill="none">
+                                            </rect>
+                                            <g transform="translate(0,-952.36222)">
+                                                <path
+                                                    d="m 56,963 c -102,122 6,9 7,9 17,-5 -66,69 -38,52 122,-77 -7,14 18,4 29,-11 45,-43 23,-4"
+                                                    stroke="#cc2323" stroke-width="3" fill="none" class="path1"></path>
+                                            </g>
+                                        </svg>
+                                        <span>Dany hai</span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="col-6">
+                                <div class="checkbox-wrapper">
+                                    <input type="checkbox" class="check" id="check1-62" aria-label="Checkbox 2"
+                                        checked />
+                                    <label for="check1-62" class="label">
+                                        <svg width="45" height="45" viewBox="0 0 95 95">
+                                            <rect x="30" y="20" width="50" height="50" stroke="black" fill="none">
+                                            </rect>
+                                            <g transform="translate(0,-952.36222)">
+                                                <path
+                                                    d="m 56,963 c -102,122 6,9 7,9 17,-5 -66,69 -38,52 122,-77 -7,14 18,4 29,-11 45,-43 23,-4"
+                                                    stroke="#cc2323" stroke-width="3" fill="none" class="path1"></path>
+                                            </g>
+                                        </svg>
+                                        <span>Lyny Hai</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <div class="form-floating mt-4 ">
+                                    <input type="number" class="form-control" id="floatingInput"
+                                        placeholder="Enter amount" min="0">
+                                    <label for="floatingInput">Amount</label>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-end">
+                                <button type="button" class="btn btn-primary mt-4">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ========== End add-Customer ========== -->
+    <script>
+        let singlePageElements = document.getElementsByClassName("single_view");
+
+        for (let i = 0; i < singlePageElements.length; i++) {
+            // Add an onclick event to each element
+            singlePageElements[i].onclick = function () {
+                window.location.href = "Customer_Detail_page.html";
+            };
+        }
+
+    </script>
+</body>
+
+</html>
